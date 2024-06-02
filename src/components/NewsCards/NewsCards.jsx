@@ -25,7 +25,7 @@ export const NewsCards = () => {
       {data?.map((el, idx) => (
         <Col key={idx}>
           <Card className='h-full'>
-            <Card.Img variant='top' src={`${el.imageUrl}`} />
+            <Card.Img variant='top' src={`https://cursova-back-6ntf.onrender.com${el.imageUrl}`} />
             <Card.Body>
               <Card.Title>{el.title}</Card.Title>
               <Card.Text>{el.text}</Card.Text>
