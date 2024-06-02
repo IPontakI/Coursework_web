@@ -25,7 +25,7 @@ export const NewsCards = () => {
       {data?.map((el, idx) => (
         <Col key={idx}>
           <Card className='h-full'>
-            <Card.Img variant='top' src={`http://localhost:8081${el.imageUrl}`} />
+            <Card.Img variant='top' src={`${el.imageUrl}`} />
             <Card.Body>
               <Card.Title>{el.title}</Card.Title>
               <Card.Text>{el.text}</Card.Text>

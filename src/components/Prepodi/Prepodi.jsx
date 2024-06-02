@@ -4,19 +4,28 @@ import { Image } from 'react-bootstrap'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-import prepodPhoto from '../../assets/kent.jpg'
+import prepodPhoto1 from '../../assets/prepodi/1.jpg'
+import prepodPhoto2 from '../../assets/prepodi/2.jpg'
+import prepodPhoto3 from '../../assets/prepodi/3.jpg'
+import prepodPhoto4 from '../../assets/prepodi/4.jpg'
+import prepodPhoto5 from '../../assets/prepodi/5.jpg'
+import prepodPhoto6 from '../../assets/prepodi/6.jpg'
+import prepodPhoto7 from '../../assets/prepodi/7.jpg'
+import prepodPhoto8 from '../../assets/prepodi/8.jpg'
+import prepodPhoto9 from '../../assets/prepodi/9.jpg'
+import prepodPhoto10 from '../../assets/prepodi/10.jpg'
 
 const arr = [
-  { photo: prepodPhoto, prepodName: 'Олексій Мельник', prepodRole: 'Декан факультету' },
-  { photo: prepodPhoto, prepodName: 'Ірина Ковальчук', prepodRole: 'Заступниця декана з навчальної роботи' },
-  { photo: prepodPhoto, prepodName: 'Андрій Шевченко', prepodRole: 'Професор математики' },
-  { photo: prepodPhoto, prepodName: 'Наталія Кравчук', prepodRole: 'Доцент кафедри української мови та літератури' },
-  { photo: prepodPhoto, prepodName: 'Сергій Литвиненко', prepodRole: 'Професор фізики' },
-  { photo: prepodPhoto, prepodName: 'Олена Гончарук', prepodRole: 'Старший викладач кафедри педагогіки' },
-  { photo: prepodPhoto, prepodName: 'Володимир Петров', prepodRole: 'Старший викладач кафедри педагогіки' },
-  { photo: prepodPhoto, prepodName: 'Марія Ткаченко', prepodRole: 'Доцент кафедри англійської філології' },
-  { photo: prepodPhoto, prepodName: 'Дмитро Василенко', prepodRole: 'Завідувач кафедри інформатики' },
-  { photo: prepodPhoto, prepodName: 'Галина Романюк', prepodRole: 'Бібліотекар факультету' }
+  { photo: prepodPhoto2, prepodName: 'Олексій Мельник', prepodRole: 'Декан факультету' },
+  { photo: prepodPhoto1, prepodName: 'Ірина Ковальчук', prepodRole: 'Заступниця декана з навчальної роботи' },
+  { photo: prepodPhoto3, prepodName: 'Андрій Шевченко', prepodRole: 'Професор математики' },
+  { photo: prepodPhoto5, prepodName: 'Наталія Кравчук', prepodRole: 'Доцент кафедри української мови та літератури' },
+  { photo: prepodPhoto4, prepodName: 'Сергій Литвиненко', prepodRole: 'Професор фізики' },
+  { photo: prepodPhoto9, prepodName: 'Олена Гончарук', prepodRole: 'Старший викладач кафедри педагогіки' },
+  { photo: prepodPhoto8, prepodName: 'Володимир Петров', prepodRole: 'Старший викладач кафедри педагогіки' },
+  { photo: prepodPhoto7, prepodName: 'Марія Ткаченко', prepodRole: 'Доцент кафедри англійської філології' },
+  { photo: prepodPhoto6, prepodName: 'Дмитро Василенко', prepodRole: 'Завідувач кафедри інформатики' },
+  { photo: prepodPhoto10, prepodName: 'Галина Романюк', prepodRole: 'Бібліотекар факультету' }
 ]
 
 export const Prepodi = () => {

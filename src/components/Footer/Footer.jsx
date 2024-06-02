@@ -13,7 +13,7 @@ export const Footer = () => {
               <nav>
                 <ul>
                   <li>
-                    <a href='/about-us'>Про факультет</a>
+                    <a href='/fukpage'>Про факультет</a>
                   </li>
                   <li>
                     <a href='/gallery'>Галерея</a>
@@ -22,7 +22,7 @@ export const Footer = () => {
                     <a href={'/news'}>Новини</a>
                   </li>
                   <li>
-                    <a href={'/contact-us'}>Контакти</a>
+                    <a href={'/contacts'}>Контакти</a>
                   </li>
                 </ul>
               </nav>

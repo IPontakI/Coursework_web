@@ -6,7 +6,7 @@ export const Map = () => {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        apiKey: 'AIzaSyD0QTRhwO2ETnrUqecDPKVIFvTr1cO_-UE',
+        apiKey: '',
         version: 'weekly'
       })
 
