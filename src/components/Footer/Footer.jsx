@@ -1,6 +1,7 @@
 import { FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { FaFacebook } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -13,16 +14,16 @@ export const Footer = () => {
               <nav>
                 <ul>
                   <li>
-                    <a href='/fukpage'>Про факультет</a>
+                    <Link to='/fukpage'>Про факультет</Link>
                   </li>
                   <li>
-                    <a href='/gallery'>Галерея</a>
+                    <Link to='/gallery'>Галерея</Link>
                   </li>
                   <li>
-                    <a href={'/news'}>Новини</a>
+                    <Link to='/news'>Новини</Link>
                   </li>
                   <li>
-                    <a href={'/contacts'}>Контакти</a>
+                    <Link to='/contacts'>Контакти</Link>
                   </li>
                 </ul>
               </nav>
