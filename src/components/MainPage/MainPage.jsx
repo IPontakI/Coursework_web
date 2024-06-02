@@ -1,9 +1,7 @@
 import React from 'react'
-import { Container, Image } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { NewsCards } from '../NewsCards/NewsCards'
 import { Prepodi } from '../Prepodi/Prepodi'
-
-import mainPhoto from './../../assets/main_photo.jpg'
 
 export const MainPage = () => {
   return (

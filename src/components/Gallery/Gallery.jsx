@@ -1,6 +1,3 @@
-import Container from 'react-bootstrap/Container'
-import photo from '../../assets/main_photo.jpg'
-
 import phGal1 from '../../assets/gal-1.jpg'
 import phGal2 from '../../assets/gal-2.jpg'
 import phGal3 from '../../assets/gal-3.jpg'
@@ -25,65 +22,65 @@ import phGal20 from '../../assets/gal-20.jpg'
 export const Gallery = () => {
   return (
     <div className='container my-3 galery-table'>
-      <div class='grid-wrapper'>
-        <div class='wide'>
+      <div className='grid-wrapper'>
+        <div className='wide'>
           <img src={phGal1} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal2} alt='' />
         </div>
-        <div class='tall'>
+        <div className='tall'>
           <img src={phGal3} alt='' />
         </div>
-        <div class='big'>
+        <div className='big'>
           <img src={phGal4} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal5} alt='' />
         </div>
-        <div class='tall'>
+        <div className='tall'>
           <img src={phGal6} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal7} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal8} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal9} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal10} alt='' />
         </div>
-        <div class='big'>
+        <div className='big'>
           <img src={phGal11} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal12} alt='' />
         </div>
-        <div class='big'>
+        <div className='big'>
           <img src={phGal13} alt='' />
         </div>
-        <div class='tall'>
+        <div className='tall'>
           <img src={phGal14} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal15} alt='' />
         </div>
         <div>
           <img src={phGal16} alt='' />
         </div>
-        <div class='tall'>
+        <div className='tall'>
           <img src={phGal17} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal18} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal19} alt='' />
         </div>
-        <div class='wide'>
+        <div className='wide'>
           <img src={phGal20} alt='' />
         </div>
       </div>

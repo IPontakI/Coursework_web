@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { FaFacebook } from 'react-icons/fa'
@@ -51,10 +50,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className={'footer-bottom'}>
-          © Copyright {new Date().getFullYear()}.{' '}
-          <a replace={true} href={'/'}>
-            FukPontak
-          </a>
+          © Copyright {new Date().getFullYear()}. <a href={'/'}>FukPontak</a>
         </div>
       </div>
     </footer>

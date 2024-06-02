@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules'
-import { Container, Image } from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'

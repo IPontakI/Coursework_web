@@ -1,4 +1,3 @@
-import React from 'react'
 import { NewsCards } from '../NewsCards/NewsCards'
 
 export const News = () => {

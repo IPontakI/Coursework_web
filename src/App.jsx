@@ -1,23 +1,26 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import React from 'react'
-import { Header } from './components/Header/Header'
 import { MainPage } from './components/MainPage/MainPage'
-import { Footer } from './components/Footer/Footer'
 import { FukPage } from './components/FukPage/FukPage'
 import { News } from './components/News/News'
 import { Gallery } from './components/Gallery/Gallery'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Layout } from './components/Layout/Layout'
+import { FukContakts } from './components/FukContakts/FukContakts'
 
 export const App = () => {
   return (
-    <div>
-      <Header />
-      {/* <MainPage></MainPage> */}
-      {/* <FukPage /> */}
-      {/* <News /> */}
-      <Gallery />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<MainPage />} />
+          <Route path='fukpage' element={<FukPage />} />
+          <Route path='news' element={<News />} />
+          <Route path='gallery' element={<Gallery />} />
+          <Route path='contacts' element={<FukContakts />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
