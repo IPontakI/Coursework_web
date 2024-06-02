@@ -6,7 +6,7 @@ export const Map = () => {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        apiKey: '',
+        apiKey: process.env.GOOGLE_MAP_APIKEY,
         version: 'weekly'
       })
 
