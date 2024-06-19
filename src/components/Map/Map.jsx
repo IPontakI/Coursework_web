@@ -6,7 +6,7 @@ export const Map = () => {
   useEffect(() => {
     const initMap = async () => {
       const loader = new Loader({
-        apiKey: process.env.GOOGLE_MAP_APIKEY,
+        apiKey: import.meta.env.VITE_GOOGLE_MAP_APIKEY,
         version: 'weekly'
       })
 
@@ -26,7 +26,7 @@ export const Map = () => {
       const mapOptions = {
         center: position,
         zoom: 5,
-        mapId: process.env.MY_NEXTJS_MAPID
+        mapId: 'MY_NEXTJS_MAPID'
       }
 
       // setup map
