@@ -51,7 +51,10 @@ export const Footer = () => {
           </div>
         </div>
         <div className={'footer-bottom'}>
-          © Copyright {new Date().getFullYear()}. <a href={'/'}>FukPontak</a>
+          © Copyright {new Date().getFullYear()}. <a href={'/'}>FukPontak</a>{' '}
+          <a href='https://nupp.edu.ua/' target='_blank'>
+            https://nupp.edu.ua/
+          </a>
         </div>
       </div>
     </footer>
