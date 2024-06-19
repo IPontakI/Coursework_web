@@ -26,7 +26,7 @@ export const Map = () => {
       const mapOptions = {
         center: position,
         zoom: 5,
-        mapId: 'MY_NEXTJS_MAPID'
+        mapId: process.env.MY_NEXTJS_MAPID
       }
 
       // setup map
